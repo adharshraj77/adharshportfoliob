@@ -110,7 +110,7 @@ export default function Projects() {
 
   const handleProjectCatalogue = () => {
     // This will be replaced with the actual URL provided by the user
-    window.open('https://your-project-catalogue-url.com', '_blank');
+    window.open('https://astro-code-lab.lovable.app/', '_blank');
   };
 
   return (
