@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { MapPin, Brain, Award, Mail, User, Code, Target } from 'lucide-react';
+import { MapPin, Brain, Award, Mail, User, Code, Target,School} from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -66,10 +66,11 @@ export default function About() {
   }, []);
 
   const stats = [
-    { icon: MapPin, label: "Location", value: "[City, Country]", color: "blue" },
-    { icon: Brain, label: "Experience", value: "5+ Years", color: "purple" },
-    { icon: Award, label: "Certifications", value: "IBM, Google, AWS", color: "green" },
-    { icon: Mail, label: "Email", value: "[your.email@example.com]", color: "cyan" }
+    { icon: MapPin, label: "Location", value: "India,Chennai", color: "blue" },
+    { icon: Brain, label: "Experience", value: "1+ Years", color: "purple" },
+    { icon: Award, label: "Specilization", value: "AI & ML + DataScience", color: "green" },
+    { icon: Mail, label: "Email", value: "kavalaadharshraj@gmail.com", color: "cyan" },
+    { icon: School, label: "VIT-AP University", value: "Btech CSE AI/ML", color: "red" }
   ];
 
   return (
