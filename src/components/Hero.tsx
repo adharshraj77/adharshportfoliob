@@ -59,7 +59,7 @@ const Hero = () => {
             ref={nameRef}
             className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent opacity-0"
           >
-            [Your Name]
+            Kavala Adharsh Raj
           </h1>
           
           <p 
