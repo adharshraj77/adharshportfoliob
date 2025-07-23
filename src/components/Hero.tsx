@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
-import { Download, Rocket, User, Brain, Database, BarChart3, Cpu } from 'lucide-react';
+import { Download, Rocket, User, Brain, Database, BarChart3, Cpu,BookOpen } from 'lucide-react';
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -109,6 +109,17 @@ const Hero = () => {
               <User className="w-5 h-5 group-hover:animate-bounce" />
               About Me
             </motion.button>
+
+            <motion.button
+              onClick={() => window.open("https://astro-code-lab.lovable.app/", "_blank")}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="flex items-center gap-2 px-8 py-4 border-2 border-green-400 text-green-400 rounded-lg font-semibold text-lg hover:bg-green-400 hover:text-gray-900 transition-all duration-300 group"
+              >
+              <BookOpen className="w-5 h-5 group-hover:animate-bounce" />
+              Catalogue
+              </motion.button>
+            
           </div>
         </motion.div>
       </div>
