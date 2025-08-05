@@ -16,7 +16,7 @@ export default function Footer() {
           className="text-center"
         >
           <div className="mb-6">
-            <h3 className="text-2xl font-bold neon-text mb-2">Kavala Adharsh Raj</h3>
+            <h3 className="text-2xl font-bold neon-text mb-2">Kavala Adharsh Raj </h3>
             <p className="text-gray-400">Data Scientist & ML Engineer</p>
           </div>
 
