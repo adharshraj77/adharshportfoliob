@@ -16,7 +16,7 @@ export default function Footer() {
           className="text-center"
         >
           <div className="mb-6">
-            <h3 className="text-2xl font-bold neon-text mb-2">[Your Name]</h3>
+            <h3 className="text-2xl font-bold neon-text mb-2">Kavala Adharsh Raj</h3>
             <p className="text-gray-400">Data Scientist & ML Engineer</p>
           </div>
 
@@ -52,7 +52,7 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center justify-center gap-2 text-gray-400">
-            <span>© {currentYear} [Your Name]. Made with</span>
+            <span>© {currentYear} Adharsh Raj. Made with</span>
             <Heart size={16} className="text-red-400 animate-pulse" />
             <span>and lots of data</span>
           </div>
