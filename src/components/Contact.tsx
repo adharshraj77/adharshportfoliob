@@ -76,21 +76,21 @@ export default function Contact() {
     {
       icon: Github,
       label: 'GitHub',
-      url: 'https://github.com/[yourhandle]',
+      url: 'https://github.com/adharshraj77',
       color: 'gray',
       description: 'View my code repositories'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      url: 'https://linkedin.com/in/[yourname]',
+      url: 'https://www.linkedin.com/in/adharsh-raj-kavala-239637248/',
       color: 'blue',
       description: 'Connect professionally'
     },
     {
       icon: MessageCircle,
       label: 'WhatsApp',
-      url: 'https://wa.me/91XXXXXXXXXX',
+      url: 'https://wa.me/916302255498',
       color: 'green',
       description: 'Quick chat and discussions'
     },
@@ -104,14 +104,14 @@ export default function Contact() {
     {
       icon: Phone,
       label: 'Phone',
-      url: 'tel:+91XXXXXXXXXX',
+      url: 'tel:+916302255498',
       color: 'yellow',
       description: 'Direct phone contact'
     },
     {
       icon: Mail,
       label: 'Email',
-      url: 'mailto:youremail@example.com',
+      url: 'mailto:kavalaadharshraj@gamil.com',
       color: 'pink',
       description: 'Professional inquiries'
     }
