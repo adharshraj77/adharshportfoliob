@@ -135,15 +135,9 @@ export default function Skills() {
     },
     {
       category: "Tools & Others",
-      items: ["Git", "Jupyter", "Excel"],
+      items: ["Git", "Jupyter", "Excel", "APIs"],
       icon: Settings,
       color: "pink"
-    },
-    {
-      category: "Generative AI & Automation",
-      items: ["OpenAI GPT", "LangChain", "Hugging Face", "AI Agents", "Prompt Engineering"],
-      icon: Brain,
-      color: "yellow"
     }
   ];
 
